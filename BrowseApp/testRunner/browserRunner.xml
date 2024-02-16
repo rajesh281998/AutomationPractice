@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+    <parameter name="selenium.browser" value="Chrome"/>
+    <parameter name="web.url" value="https://www.tutoracacademy.com/student/login"/>
+    <parameter name="testdata.path" value="src/test/resources/TestData.xlsx"/>
+
+    <test name="Browse Tests" >
+        <classes>
+            <class name="testClasses.loginTest.LoginTest">
+                <methods>
+                    <include name="loginTest"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
