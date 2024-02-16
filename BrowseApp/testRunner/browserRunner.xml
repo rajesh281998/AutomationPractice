@@ -4,7 +4,7 @@
     <parameter name="web.url" value="https://www.tutoracacademy.com/student/login"/>
     <parameter name="testdata.path" value="src/test/resources/TestData.xlsx"/>
 
-    <test name="Browse Tests" >
+    <test name="Browse Tests1" >
         <classes>
             <class name="testClasses.loginTest.LoginTest">
                 <methods>
